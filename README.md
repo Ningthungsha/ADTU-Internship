@@ -7,10 +7,10 @@ and projects completed throughout the internship.
 ## Repository Structure
 - Lecture 1 – HTML and CSS basics
 - Lecture 2 – Java programming practice
-- Lecture 3 – JavaScript basics and homework
-- Lecture 4 – Practical exercises
-- Lecture 5 – Assignments
-- Lecture 6 – Additional practice
+- Lecture 3 – JavaScript basics
+- Lecture 4 – javascript keywords
+- Lecture 5 – javascript concepts.
+- Lecture 6 – javascript array methods
 
 ## Technologies Used
 - HTML5
