@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Clone</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-left">
+            <i class="fa-solid fa-bars menu"></i>
+            <h2 class="logo">Medium</h2>
+        </div>
+
+        <div class="nav-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="nav-right">
+
+            <button class="btn-outline">Get App</button>
+
+            <button class="btn-write">
+                <i class="fa-regular fa-pen-to-square"></i>
+                Write
+            </button>
+
+            <i class="fa-regular fa-bell nav-icon"></i>
+
+            <img src="i.pravatar.cc/40" class="profile">
+
+        </div>
+
+    </header>
+
+    <!-- ================= MAIN ================= -->
+
+    <div class="container">
+
+        <!-- LEFT SIDEBAR -->
+
+        <aside class="sidebar">
+
+            <ul>
+
+                <li class="active">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-bookmark"></i>
+                    Library
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-user"></i>
+                    Profile
+                </li>
+
+                <li>
+                    <i class="fa-regular fa-file-lines"></i>
+                    Stories
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-chart-column"></i>
+                    Stats
+                </li>
+
+            </ul>
+
+            <div class="following">
+
+                <h3>Following</h3>
+
+                <div class="find">
+
+                    <div class="plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div>
+                        <h4>Find writers & publications</h4>
+                        <p>Follow great writers.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+        <!-- CENTER -->
+
+        <main class="feed">
+
+            <div class="tabs">
+                <button class="tab active">For You</button>
+                <button class="tab">Featured</button>
+            </div>
+
+            <!-- CARD 1 -->
+
+            <article class="card">
+
+                <div class="card-content">
+
+                    <div class="author">
+
+                        <img src="/i.pravatar.cc/30?img=12">
+
+                        <span>Rita Kind-Envy · Jan 5</span>
+
+                    </div>
+
+                    <h2>
+                        What good writing looks like
+                    </h2>
+
+                    <p>
+                        The essential (micro) copy rules I used at Google.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            <i class="fa-regular fa-star"></i>
+                            4.7K
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-comment"></i>
+                            288
+                        </span>
+
+                        <span>
+                            <i class="fa-regular fa-bookmark"></i>
+                            68
+                        </span>
+
+                        <i class="fa-solid fa-ellipsis"></i>
+
+                    </div>
+
+                </div>
+
+                <img class="thumbnail"
+                src="https://picsum.photos/220/140?random=1">
+
+            </article>
+
+            <!-- CARD 2 -->
+
+            <article class="card">
+
+                <div class="card-content">
+
+                    <div class="author">
+
+                        <img src="https://i.pravatar.cc/30?img=20">
+
+                        <span>Lianisha R. · Jun 27</span>
+
+                    </div>
+
+                    <h2>
+                        Tolong Jangan Jadi Rembulan Bagi Samudera ku
+                    </h2>
+
+                    <p>
+                        Please, don't be the moon to my sea.
+                    </p>
+
+                    <div class="card-footer">
+
+                        <span>
+                            👏 178
+                        </span>
+
+                        <span>
+                            💬 2
+                        </span>
+
+                        <span>
+                            🔖 13
+                        </span>
+
+                    </div>
+
+                </div>
+
+                <img class="thumbnail"
+                src="https://picsum.photos/220/140?random=2">
+
+            </article>
+
+            <!-- CARD 3 -->
+
+            <article class="card">
+
+                <div class="card-content">
+
+                    <div class="author">
+
+                        <img src="https://i.pravatar.cc/30?img=45">
+
+                        <span>Penguin Random House · Jul 3</span>
+
+                    </div>
+
+            </article>
+
+        </main>
+
+        <aside class="right">
+
+            <section>
+
+                <h3>Staff Picks</h3>
+
+                <div class="pick">
+
+                    <strong>Dr. Jess Steier</strong>
+
+                    <p>Behind every vaccine question is a person.</p>
+
+                </div>
+
+                <div class="pick">
+
+                    <strong>John Gorman</strong>
+
+                    <p>Participation Is Reality.</p>
+
+                </div>
+
+                <div class="pick">
+
+                    <strong>Ben McKenzie</strong>
+
+                    <p>The Future of AI.</p>
+
+                </div>
+
+            </section>
+
+            <section class="topics">
+
+                <h3>Recommended Topics</h3>
+
+                <button>Programming</button>
+                <button>Technology</button>
+                <button>Writing</button>
+                <button>Self Improvement</button>
+                <button>Data Science</button>
+                <button>AI</button>
+
+            </section>
+
+        </aside>
+
+    </div>
+
+</body>
+</html>
